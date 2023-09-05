@@ -1,0 +1,23 @@
+[
+  {
+    "id": "9mm",
+    "copy-from": "9mm",
+    "type": "AMMO",
+
+    "name": {
+      "str": "9×19mm Federal TMJ"
+    },
+    "//description": "TBD"
+  },
+
+  {
+    "id": "9mmP2",
+    "copy-from": "9mmP2",
+    "type": "AMMO",
+
+    "name": {
+      "str": "9×19mm Underwood JHP +P+"
+    },
+    "//description": "TBD"
+  }
+]
