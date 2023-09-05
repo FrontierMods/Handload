@@ -29,7 +29,7 @@
     "volume": "1 ml",
     "longest_side": "15 mm",
 
-    "material": ["brass", "copper"],
+    "material": ["lead", "copper"],
 
     "symbol": ":",
     "color": "dark_gray",
