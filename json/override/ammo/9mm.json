@@ -13,7 +13,9 @@
     "name": {
       "str": "9×19mm Federal TMJ"
     },
-    "//description": "TBD"
+    "//description": "TBD",
+
+    "material": ["brass", "lead", "copper", "powder"]
   },
 
   {
@@ -24,6 +26,8 @@
     "name": {
       "str": "9×19mm Underwood JHP +P+"
     },
-    "//description": "TBD"
+    "//description": "TBD",
+
+    "material": ["brass", "nickel", "lead", "copper", "powder"]
   }
 ]
