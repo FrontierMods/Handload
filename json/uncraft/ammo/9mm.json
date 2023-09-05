@@ -3,11 +3,21 @@
     "result": "9mmfmj",
     "copy-from": "ammo_cartridge",
     "type": "uncraft",
+
+    "//sources": [
+      "https://www.1911forum.com/threads/looking-at-powder-in-federal-champion-9mm-luger-cartridge.308471/"
+    ],
+
+    "//notes": [
+      "anecdotal experimental evidence from source suggests 4.55 gr of Alliant Bullseye"
+    ],
+
     "activity_level": "MODERATE_EXERCISE",
     "using": [["ammo_9mm", 1]],
     "qualities": [{ "id": "PULL", "level": 1 }],
+
     "components": [
-      [["gunpowder_smokeless_alliant_bullseye", 3]],
+      [["gunpowder_smokeless_alliant_bullseye", 5]],
       [["bullet_9mm_speer_tmj_115gr", 1]]
     ]
   }
