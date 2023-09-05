@@ -23,11 +23,39 @@
     "copy-from": "9mmP2",
     "type": "AMMO",
 
+    "//sources": [
+      "https://underwoodammo.com/9mm-luger-p-115gr.-sporting-jacketed-hollow-point-hunting-self-defense-ammo/",
+      "https://www.youtube.com/watch?v=gQ7ri9wa728",
+      "https://www.ammoman.com/blog/9mm-effective-range/"
+    ],
+
     "name": {
       "str": "9×19mm Underwood JHP +P+"
     },
     "//description": "TBD",
 
-    "material": ["brass", "nickel", "lead", "copper", "powder"]
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 27,
+      "penetration": 4,
+
+      "//energy": "525 ft⋅lbf",
+      "//velocity": "1434 fps",
+      "//sectional_density": 0.13,
+      "//ballistic_coefficient": 0.11,
+      "//expansion": "0.884 in",
+
+      "//notes": [
+        "manufacturer source stats muzzle velocity to be 1400 fps, and muzzle energy 501 ft⋅lbf",
+        "independent tests suggest the round well exceeds these numbers"
+      ]
+    },
+    "//range": "actual range: 84 yds ≈ 77 m",
+    "range": 60,
+
+    "material": ["brass", "nickel", "lead", "copper", "powder"],
+
+    "//price": "22 USD / 20 rounds",
+    "price": "110 cents"
   }
 ]
