@@ -1,0 +1,13 @@
+[
+  {
+    "id": "gunpowder_smokeless_winchester_super_field",
+    "copy-from": "gunpowder",
+    "type": "AMMO",
+
+    "name": { "str_sp": "Winchester Super Field smokeless gunpowder" },
+    "description": "TBD",
+
+    "//TODO": "add specialized black plastic container",
+    "//container": "bottle_plastic"
+  }
+]

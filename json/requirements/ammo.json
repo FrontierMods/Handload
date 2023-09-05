@@ -3,5 +3,11 @@
     "id": "ammo_9mm",
     "type": "requirement",
     "components": [[["casing_9mm_brass", 1]], [["smpistol_primer", 1]]]
+  },
+
+  {
+    "id": "ammo_9mm_nickel",
+    "type": "requirement",
+    "components": [[["casing_9mm_nickel", 1]], [["smpistol_primer", 1]]]
   }
 ]

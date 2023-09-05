@@ -38,5 +38,28 @@
 
     "//price": "30 USD / 500 rounds",
     "price": "6 cents"
+  },
+
+  {
+    "id": "casing_9mm_nickel",
+    "copy-from": "casing_9mm_brass",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://www.armorally.com/brass-counts-by-weight/",
+      "http://saami.org/specifications_and_information/publications/download/205.pdf",
+      "https://eastcoastreloading.com/9mm-nickel-plated/"
+    ],
+
+    "name": {
+      "str": "9mm nickel casing"
+    },
+    "description": "TBD",
+
+    "material": ["brass", "nickel"],
+
+    "//price": "39 USD / 500 rounds",
+    "price": "8 cents"
   }
 ]

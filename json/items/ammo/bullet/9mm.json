@@ -36,5 +36,44 @@
 
     "//price": "18 USD / 100 rounds",
     "price": "18 cents"
+  },
+
+  {
+    "id": "bullet_9mm_speer_hp_115gr",
+    "copy-from": "bullet_9mm_speer_tmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://www.speer.com/bullets/handgun_bullets/gold_dot_handgun_component_bullet/19-3994.html",
+      "http://www.ballistics101.com/underwood_ammo_review.php",
+      "https://www.smkw.com/speer-gold-dot-9mm-115gr-jhp-reloads-100ct"
+    ],
+
+    "//notes": [
+      "Speer 115 gr Gold Dot JHP is used in the 9mm Underwood JHP +P+ round, which is used as a basis for the game's 9mm +P+ round"
+    ],
+
+    "name": {
+      "str": "Speer 9mm 115gr Gold Dot JHP bullet"
+    },
+    "description": "TBD",
+
+    "//dimensions": {
+      "length": "13.34 mm",
+      "diameter": "9.02 mm",
+      "raw": "1.03 ml",
+      "trim": 0.25,
+      "notes": ["volume rounded up to the full 1 ml"]
+    },
+    "volume": "1 ml",
+    "longest_side": "13 mm",
+
+    "//ballistics": {
+      "expansion": "0.882 in"
+    },
+
+    "//price": "34 USD / 100 rounds",
+    "price": "34 cents"
   }
 ]
