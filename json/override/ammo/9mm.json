@@ -2,6 +2,12 @@
   {
     "id": "9mm",
     "copy-from": "9mm",
+    "type": "AMMO"
+  },
+
+  {
+    "id": "9mmfmj",
+    "copy-from": "9mmfmj",
     "type": "AMMO",
 
     "name": {
