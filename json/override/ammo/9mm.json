@@ -15,6 +15,19 @@
     },
     "//description": "TBD",
 
+    "//dimensions": {
+      "length": "26.50 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.04 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "longest_side": "27 mm",
+    "count": 1,
+
     "material": ["brass", "lead", "copper", "powder"]
   },
 
@@ -33,6 +46,19 @@
       "str": "9×19mm Underwood JHP +P+"
     },
     "//description": "TBD",
+
+    "//dimensions": {
+      "length": "26.50 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.04 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "longest_side": "27 mm",
+    "count": 1,
 
     "damage": {
       "damage_type": "bullet",
