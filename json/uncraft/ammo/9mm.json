@@ -1,0 +1,14 @@
+[
+  {
+    "result": "9mmfmj",
+    "copy-from": "ammo_cartridge",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "using": [["ammo_9mm", 1]],
+    "qualities": [{ "id": "PULL", "level": 1 }],
+    "components": [
+      [["gunpowder_smokeless_alliant_bullseye", 3]],
+      [["bullet_9mm_speer_tmj_115gr", 1]]
+    ]
+  }
+]

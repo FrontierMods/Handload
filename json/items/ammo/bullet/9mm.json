@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bullet_9mm_speer_tmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://www.speer.com/bullets/handgun_bullets/tmj_handgun_bullet/19-3995.html"
+    ],
+
+    "//notes": [
+      "Speer 115 gr TMJ RN is used in the 9mm Federal FMJ round, which is used as a basis for the game's 9mm FMJ round"
+    ],
+
+    "name": {
+      "str": "Speer 9mm 115gr TMJ bullet"
+    },
+    "description": "TBD",
+
+    "//weight": "115 gr ≈ 7.5 g is a common basic weight for a 9 mm bullet",
+    "weight": "8 g",
+    "//dimensions": {
+      "length": "14.605 mm",
+      "diameter": "9.02 mm",
+      "raw": "0.93 ml",
+      "trim": 0.2,
+      "notes": ["volume rounded up to the full 1 ml"]
+    },
+    "volume": "1 ml",
+    "longest_side": "15 mm",
+
+    "material": ["brass", "copper"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "//price": "18 USD / 100 rounds",
+    "price": "18 cents"
+  }
+]
