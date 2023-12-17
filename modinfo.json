@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "handload",
+
+    "name": "Handload",
+    "description": "Remodels existing cartridges, adds new calibers, and enables greater degree of handloading",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "items",
+
+    "dependencies": ["dda", "frontier_core"],
+
+    "path": "json"
+  }
+]
