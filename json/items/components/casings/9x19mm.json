@@ -1,7 +1,7 @@
 [
   {
     "id": "casing_9x19mm_spent",
-    "type": "AMMO",
+    "type": "GENERIC",
     "category": "spare_parts",
 
     "//sources": [
@@ -50,7 +50,7 @@
   {
     "id": "casing_9x19mm_dirty",
     "copy-from": "casing_9x19mm_spent",
-    "type": "AMMO",
+    "type": "GENERIC",
     "category": "spare_parts",
 
     "name": {
@@ -68,7 +68,7 @@
   {
     "id": "casing_9x19mm_clean",
     "copy-from": "casing_9x19mm_dirty",
-    "type": "AMMO",
+    "type": "GENERIC",
     "category": "spare_parts",
 
     "name": {
@@ -83,7 +83,7 @@
   {
     "id": "casing_9x19mm_pristine",
     "copy-from": "casing_9x19mm_clean",
-    "type": "AMMO",
+    "type": "GENERIC",
     "category": "spare_parts",
 
     "//sources": [

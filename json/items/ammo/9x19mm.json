@@ -51,7 +51,7 @@
     "color": "yellow",
 
     "ammo_type": "9mm",
-    "casing": "casing_9x19mm_used",
+    "casing": "casing_9x19mm_spent",
 
     "stack_size": 30,
 
@@ -160,7 +160,7 @@
     "color": "yellow",
 
     "ammo_type": "9mm",
-    "casing": "casing_9x19mm_used",
+    "casing": "casing_9x19mm_spent",
 
     "stack_size": 30,
 
@@ -257,7 +257,7 @@
     "color": "yellow",
 
     "ammo_type": "9mm",
-    "casing": "casing_9x19mm_used",
+    "casing": "casing_9x19mm_spent",
 
     "stack_size": 30,
 
@@ -318,7 +318,8 @@
       ],
       [
         "https://www.thefinalimage.com/winchester-rangertm-le-9mm-luger-p-115-grain-t-series-jacketed-hollow-point.html",
-        "price"
+        "price",
+        "casing material"
       ]
     ],
 
@@ -358,7 +359,7 @@
     "color": "yellow",
 
     "ammo_type": "9mm",
-    "casing": "casing_9x19mm_used",
+    "casing": "casing_9x19mm_spent",
 
     "stack_size": 30,
 
