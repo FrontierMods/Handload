@@ -43,6 +43,8 @@
     "symbol": ":",
     "color": "dark_gray",
 
+    "stackable": true,
+
     "//price": "45 USD / 1000 casings = 4.5 cents ≈ 5 cents",
     "price": "5 cent",
     "price_postapoc": "0 cent"
