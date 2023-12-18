@@ -1,0 +1,22 @@
+[
+  {
+    "result": "casing_9x19mm_used",
+    "type": "uncraft",
+
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+
+    "skill_used": "fabrication",
+    "difficulty": 0,
+
+    "activity_level": "LIGHT_EXERCISE",
+    "time": "7 s",
+
+    "qualities": [{ "id": "DEPRIME", "level": 1 }],
+
+    "components": [
+      [["casing_9x19mm_dirty", 1]],
+      [["primer_pistol_small_spent", 1]]
+    ]
+  }
+]
