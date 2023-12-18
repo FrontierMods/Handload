@@ -1,0 +1,15 @@
+[
+  {
+    "id": "handload_9x19mm",
+    "type": "requirement",
+    "components": [[["casing_9x19mm_clean", 1]], [["primer_pistol_small", 1]]]
+  },
+  {
+    "id": "handload_9x19mm_pristine",
+    "type": "requirement",
+    "components": [
+      [["casing_9x19mm_pristine", 1]],
+      [["primer_pistol_small", 1]]
+    ]
+  }
+]
