@@ -154,7 +154,8 @@
     "//longest_side": "1.1 in. = 27.94 mm ≈ 28 mm",
     "longest_side": "28 mm",
 
-    "material": ["brass", "nickel", "lead", "copper", "powder"],
+    "//material": "also nickel",
+    "material": ["brass", "lead", "copper", "powder"],
 
     "symbol": "=",
     "color": "yellow",
@@ -326,7 +327,11 @@
     "//notes": [
       "we take the expanded diameter for a slightly-lighter 105 gr. bullet of the same make and nature, based on the fact that the expansion diameter will likely remain the same",
       "powder weight assumes maximum load with Accurate No. 5, the reported velocity of which corresponds with the stated velocity of the round",
-      "the 105-gr. round exceeded stated muzzle velocity during Ballistics 101 test, while still having manageable recoil"
+      "the 105-gr. round exceeded stated muzzle velocity during Ballistics 101 test, while still having manageable recoil",
+      [
+        "https://www.glocktalk.com/threads/winchester-9mm-115-p-ranger.1199444/post-14995049",
+        "this comment reports the diameter of the expanded bullet to be 0.557 in."
+      ]
     ],
 
     "name": {
@@ -353,6 +358,7 @@
     "//longest_side": "1.125 in. = 28.575 mm ≈ 29 mm",
     "longest_side": "29 mm",
 
+    "//material": "also nickel",
     "material": ["brass", "lead", "copper", "powder"],
 
     "symbol": "=",
