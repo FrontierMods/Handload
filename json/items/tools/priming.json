@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tool_deprimer_manual",
+    "type": "GENERIC",
+    "category": "tools",
+
+    "//sources": [
+      "https://www.amazon.com/Frankford-Arsenal-Platinum-Deprimer-Reloading/dp/B00RPABDZO",
+      [
+        "https://www.frankfordarsenal.com/sale/hand-deprimer/909283.html",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "can deprime up to .338 Lapua",
+      "can store a large amount of primers in the plastic container, but this functionality is not implemented"
+    ],
+
+    "name": {
+      "str": "manual deprimer"
+    },
+    "description": "A spring-powered tool to extract primers from centerfire casings, both live and spent, by Frankford Arsenal.  Usable for anything between .20 and .338 Lapua, including pistol casings.",
+
+    "weight": "770 g",
+    "//dimensions": {
+      "length": "12.56 in",
+      "width": "2.36 in",
+      "height": "11.06 in",
+      "raw": "819.49 ml",
+      "trim": 0.75,
+      "notes": [
+        "we assume that the more-precise dimensions belong to the item, though it could just as likely be that of the package, since the package is easier to measure precisely"
+      ]
+    },
+    "volume": "205 ml",
+    "longest_side": "319 mm",
+
+    "material": ["aluminum", "plastic"],
+    "looks_like": "hand_crank_charger",
+
+    "symbol": ":",
+    "color": "light_gray",
+
+    "to_hit": -2,
+    "bashing": 4,
+
+    "qualities": [["DEPRIME", 1]],
+
+    "price": "58 USD",
+    "price_postapoc": "250 cent"
+  }
+]
