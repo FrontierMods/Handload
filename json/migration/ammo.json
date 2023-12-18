@@ -1,0 +1,22 @@
+[
+  {
+    "id": ["9mmfmj"],
+    "type": "MIGRATION",
+    "replace": "9x19mm_fmj_federal_american_eagle"
+  },
+  {
+    "id": ["9mm"],
+    "type": "MIGRATION",
+    "replace": "9x19mm_jhp_federal_premium_hst"
+  },
+  {
+    "id": ["9mmP"],
+    "type": "MIGRATION",
+    "replace": "9x19mm_jhp_lehigh_max_exp_plus"
+  },
+  {
+    "id": ["9mmP2"],
+    "type": "MIGRATION",
+    "replace": "9x19mm_jhp_lehigh_max_exp_plus"
+  }
+]

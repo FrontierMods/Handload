@@ -1,0 +1,406 @@
+[
+  {
+    "id": "9x19mm_fmj_federal_american_eagle",
+    "type": "AMMO",
+
+    "//sources": [
+      "https://www.federalpremium.com/handgun/american-eagle/11-AE9DP.html",
+      [
+        "https://forums.brianenos.com/topic/23795-115gr-fmj-reloading-data/",
+        "length/longest side"
+      ],
+      [
+        "https://www.glocktalk.com/threads/ftes-using-wsf-9mm-loads.1222692/post-15339790",
+        "powder load"
+      ],
+      [
+        "https://forums.brianenos.com/topic/265413-poi-9mm-124-vs-115/?do=findComment&comment=3203881",
+        "dispersion"
+      ]
+    ],
+
+    "//notes": ["stated to use Federal casings and primers as well"],
+
+    "name": {
+      "str": "9×19mm American Eagle FMJ",
+      "str_pl": "rounds of 9×19mm American Eagle FMJ"
+    },
+    "description": "Ammunition in the 9×19mm caliber, with a 115-gr FMJ (\"full metal jacket\") bullet; produced by Federal under the American Eagle brand.  The purpose of FMJ is to allow the bullet to penetrate body armor or soft cover.  Conversely, FMJ rounds don't expand on contact in any significant way, meaning the damage they deal to critical areas of the body is less than that of an expansive bullet.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
+
+    "//weight": [
+      "bullet (115 gr ≈ 7452 mg) + casing (3999 mg) + primer (214 mg) + powder (5.4 gr ≈ 350 mg) = 12015 mg",
+      "it takes 67 rounds to add 1 g to the weight of the batch"
+    ],
+    "weight": "12015 mg",
+    "//dimensions": {
+      "length": "29.21 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.25 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "//longest_side": "1.15 in. = 29.21 mm ≈ 29 mm",
+    "longest_side": "29 mm",
+
+    "material": ["brass", "lead", "copper", "powder"],
+
+    "symbol": "=",
+    "color": "yellow",
+
+    "ammo_type": "9mm",
+    "casing": "casing_9x19mm_used",
+
+    "stack_size": 30,
+
+    "damage": {
+      "damage_type": "bullet",
+      "//amount": "356 ft·lbs = 482.7 J",
+      "amount": 22,
+
+      "//sectional_density": {
+        "weight": "115 gr",
+        "diameter": "0.355 in",
+        "result": 0.13
+      },
+      "//muzzle_velocity": {
+        "fps": 1180,
+        "ms": 359.664
+      },
+      "//armor_penetration": [
+        "for lack of a concrete source stating which bullets this round uses, we use bullets with similar characteristics as substitutes for certain ballistic properties",
+        "https://www.hornady.com/bullets/handgun/9mm-.355-115-gr-fmj-rn",
+        "https://www.speer.com/bullets/handgun_bullets/copper_plated_round_nose_cprn/19-4712.html"
+      ],
+      "armor_penetration": 7,
+
+      "//armor_multiplier": 0,
+      "//damage_multiplier": 0,
+
+      "//constant_armor_multiplier": 0,
+      "//constant_damage_multiplier": 0
+    },
+    "//critical_multiplier": "1 + 2/7",
+    "critical_multiplier": 1.2857,
+    "recoil": 500,
+    "//dispersion": [
+      "3.1 in. @ 25 yds = 11.841 MOA",
+      "we err on the side of caution when assuming 3.1 in. from the phrasing „just over 3 [inches]” from source"
+    ],
+    "dispersion": 12,
+    "loudness": 84,
+    "range": 60,
+
+    "effects": ["COOKOFF"],
+
+    "flags": ["IRREPLACEABLE_CONSUMABLE"],
+
+    "//price": "25 USD / 50 bullets in a box",
+    "price": "50 cent",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "9x19mm_jhp_federal_premium_hst",
+    "type": "AMMO",
+
+    "//sources": [
+      "https://www.federalpremium.com/handgun/premium-personal-defense/personal-defense-hst/11-P9HST1S.html",
+      [
+        "https://www.defensivecarry.com/threads/range-report-federal-9mm-luger-p-124-grain-hst.219191/",
+        "length/longest side",
+        "length of bullet",
+        "shape of powder",
+        "dispersion"
+      ],
+      [
+        "https://www.shootingillustrated.com/content/review-federal-premium-hst-ammunition",
+        "expanded diameter"
+      ],
+      [
+        "https://fortscottmunitions.com/products/9mm-luger-tui-115gr-nickel-plated-handgun-ammo-bulk-ammo",
+        "powder load"
+      ]
+    ],
+
+    "//notes": [
+      "nickel-plated brass casing",
+      "flake gunpowder",
+      "we assume that whichever gunpowder the powder-load source is using is also used in the actual source (even though this is also likely not to be true)"
+    ],
+
+    "name": {
+      "str": "9×19mm Federal Premium HST",
+      "str_pl": "rounds of 9×19mm Federal Premium HST"
+    },
+    "description": "Ammunition in the 9×19mm caliber, with a 124-gr JHP (\"jacketed hollow point\") bullet; produced by Federal under the Federal Premium brand.  Like any JHP, the purpose of this round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
+
+    "//weight": [
+      "bullet (124 gr ≈ 8035 mg) + casing (3999 mg) + primer (214 mg) + powder (5.4 gr ≈ 350 mg) = 12598 mg",
+      "2 rounds to add 1 g to the weight of the batch"
+    ],
+    "weight": "12598 mg",
+    "//dimensions": {
+      "length": "27.94 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.15 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "//longest_side": "1.1 in. = 27.94 mm ≈ 28 mm",
+    "longest_side": "28 mm",
+
+    "material": ["brass", "nickel", "lead", "copper", "powder"],
+
+    "symbol": "=",
+    "color": "yellow",
+
+    "ammo_type": "9mm",
+    "casing": "casing_9x19mm_used",
+
+    "stack_size": 30,
+
+    "damage": {
+      "damage_type": "bullet",
+      "//amount": "364 ft·lbs = 493.5 J",
+      "amount": 22,
+
+      "//sectional_density": {
+        "weight": "124 gr",
+        "diameter": "0.57 in",
+        "result": 0.055
+      },
+      "//muzzle_velocity": {
+        "fps": 1150,
+        "ms": 350.52
+      },
+      "armor_penetration": 4,
+
+      "//armor_multiplier": 0,
+      "//damage_multiplier": 0,
+
+      "//constant_armor_multiplier": 0,
+      "//constant_damage_multiplier": 0
+    },
+    "//critical_multiplier": "2 + 5/7",
+    "critical_multiplier": 2.7142,
+    "recoil": 500,
+    "//dispersion": "2.29 in. @ 25 yds = 8.7472 MOA",
+    "dispersion": 9,
+    "loudness": 80,
+    "range": 60,
+
+    "effects": ["COOKOFF"],
+
+    "flags": ["IRREPLACEABLE_CONSUMABLE"],
+
+    "//price": "38 USD / 20 bullets in a box",
+    "price": "76 cent",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "9x19mm_jhp_lehigh_max_exp_plus",
+    "type": "AMMO",
+
+    "//sources": [
+      "https://lehighdefense.com/catalog/product/view/id/11603/s/9mm-115gr-lehigh-defense-me-20-box/category/1868/",
+      [
+        "https://lehighdefense.com/ld-load-data",
+        "[> for .355 115 gr Maximum expansion round]",
+        "length of bullet",
+        "length of cartridge",
+        "powder load"
+      ],
+      [
+        "http://www.ballistics101.com/lehigh_defense_maximum_expansion_hollowpoints.php",
+        "expanded diameter"
+      ]
+    ],
+
+    "//notes": [
+      "we take the expanded diameter for a slightly-lighter 105 gr. bullet of the same make and nature, based on the fact that the expansion diameter will likely remain the same",
+      "powder weight assumes maximum load with Accurate No. 5, the reported velocity of which corresponds with the stated velocity of the round",
+      "the 105-gr. round exceeded stated muzzle velocity during Ballistics 101 test, while still having manageable recoil"
+    ],
+
+    "name": {
+      "str": "9×19mm Lehigh Defense ME",
+      "str_pl": "rounds of 9×19mm Lehigh Defense ME"
+    },
+    "description": "Ammunition in the 9×19mm caliber, with a 115-gr JHP ME (\"jacketed hollow point, maximum expansion\") bullet; produced by Lehigh Defense.  Like any JHP round, the purpose of this type of round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  The bullet of this round is designed to inflict grievous wounds to the internal organs of the target, significantly more so than a regular JHP.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
+
+    "//weight": [
+      "bullet (115 gr ≈ 7452 mg) + casing (3999 mg) + primer (214 mg) + powder (5.8 gr ≈ 376 mg) = 12041 mg",
+      "25 rounds to add 1 g to the weight of the batch"
+    ],
+    "weight": "12041 mg",
+    "//dimensions": {
+      "length": "28.575 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.2 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "//longest_side": "1.125 in. = 28.575 mm ≈ 29 mm",
+    "longest_side": "29 mm",
+
+    "material": ["brass", "lead", "copper", "powder"],
+
+    "symbol": "=",
+    "color": "yellow",
+
+    "ammo_type": "9mm",
+    "casing": "casing_9x19mm_used",
+
+    "stack_size": 30,
+
+    "damage": {
+      "damage_type": "bullet",
+      "//amount": "309 ft·lbs = 418.9 J",
+      "amount": 21,
+
+      "//sectional_density": {
+        "weight": "115 gr",
+        "diameter": "0.83 in",
+        "result": 0.023
+      },
+      "//muzzle_velocity": {
+        "fps": 1100,
+        "ms": 335.28
+      },
+      "armor_penetration": 3,
+
+      "//armor_multiplier": 0,
+      "//damage_multiplier": 0,
+
+      "//constant_armor_multiplier": 0,
+      "//constant_damage_multiplier": 0
+    },
+    "critical_multiplier": 3,
+    "recoil": 550,
+    "//dispersion": [
+      "made-up value based on the performance of other rounds in this caliber",
+      "2.09 in. @ 25 yds = 7.9832 MOA"
+    ],
+    "dispersion": 8,
+    "loudness": 88,
+    "range": 60,
+
+    "effects": ["COOKOFF"],
+
+    "flags": ["IRREPLACEABLE_CONSUMABLE"],
+
+    "//price": [
+      "44 USD / 20 bullets in a box",
+      "regular price (as opposed to the first/sale(?) price"
+    ],
+    "price": "220 cent",
+    "price_postapoc": "130 cent"
+  },
+  {
+    "id": "9x19mm_jhp_winchester_ranger_plusplus",
+    "type": "AMMO",
+
+    "//sources": [
+      "https://winchesterle.com/Ammunition/Products/Handgun/Ranger/RA9115HP",
+      [
+        "https://www.gun-tests.com/ammo/9mm-p-and-p-cartridges-winchester-remington-win-2/",
+        "recoil",
+        "expanded diameter",
+        "dispersion"
+      ],
+      [
+        "https://www.thefinalimage.com/winchester-rangertm-le-9mm-luger-p-115-grain-t-series-jacketed-hollow-point.html",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "we take the expanded diameter for a slightly-lighter 105 gr. bullet of the same make and nature, based on the fact that the expansion diameter will likely remain the same",
+      "powder weight assumes maximum load with Accurate No. 5, the reported velocity of which corresponds with the stated velocity of the round",
+      "the 105-gr. round exceeded stated muzzle velocity during Ballistics 101 test, while still having manageable recoil"
+    ],
+
+    "name": {
+      "str": "9×19mm Winchester Ranger JHP +P+",
+      "str_pl": "rounds of 9×19mm Winchester Ranger JHP +P+"
+    },
+    "description": "Ammunition in the 9×19mm caliber, with a 115-gr JHP (\"jacketed hollow point\") bullet; produced by Winchester.  This make of ammo is issued to police, though you could get it as a civilian, for the right price.  Like any JHP round, the purpose of this type of round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  This round operate under significantly-higher pressure, which improves its overall performance in exchange for increased recoil.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
+
+    "//weight": [
+      "bullet (115 gr ≈ 7452 mg) + casing (3999 mg) + primer (214 mg) + powder (5.8 gr ≈ 376 mg) = 12041 mg",
+      "25 rounds to add 1 g to the weight of the batch"
+    ],
+    "weight": "12041 mg",
+    "//dimensions": {
+      "length": "28.575 mm",
+      "diameter": "9.9 mm",
+      "raw": "2.2 ml",
+      "trim": 0.2,
+      "notes": [
+        "barring any specifics about cartridge size, this approximation based on SAAMI specs will have to do"
+      ]
+    },
+    "volume": "2 ml",
+    "//longest_side": "1.125 in. = 28.575 mm ≈ 29 mm",
+    "longest_side": "29 mm",
+
+    "material": ["brass", "lead", "copper", "powder"],
+
+    "symbol": "=",
+    "color": "yellow",
+
+    "ammo_type": "9mm",
+    "casing": "casing_9x19mm_used",
+
+    "stack_size": 30,
+
+    "damage": {
+      "damage_type": "bullet",
+      "//amount": "392 ft·lbs = 531.5 J",
+      "amount": 23,
+
+      "//sectional_density": {
+        "weight": "115 gr",
+        "diameter": "0.52 in",
+        "result": 0.061
+      },
+      "//muzzle_velocity": {
+        "fps": 1335,
+        "ms": 406.908
+      },
+      "armor_penetration": 5,
+
+      "//armor_multiplier": 0,
+      "//damage_multiplier": 0,
+
+      "//constant_armor_multiplier": 0,
+      "//constant_damage_multiplier": 0
+    },
+    "//critical_multiplier": "2 + 2/7",
+    "critical_multiplier": 2.2857,
+    "recoil": 600,
+    "//dispersion": "2 in. @ 25 yds = 7.639 MOA",
+    "dispersion": 8,
+    "loudness": 96,
+    "range": 60,
+
+    "effects": ["COOKOFF"],
+
+    "flags": ["IRREPLACEABLE_CONSUMABLE"],
+
+    "//price": [
+      "60 USD / 50 bullets in a box",
+      "regular price (as opposed to the first/sale(?) price"
+    ],
+    "price": "120 cent",
+    "price_postapoc": "140 cent"
+  }
+]
