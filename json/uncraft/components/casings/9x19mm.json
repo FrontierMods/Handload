@@ -3,14 +3,14 @@
     "result": "casing_9x19mm_spent",
     "type": "uncraft",
 
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
+    "category": "CC_HANDLOAD",
+    "subcategory": "CSC_HANDLOAD_CASING CARE",
 
     "skill_used": "fabrication",
     "difficulty": 0,
 
     "activity_level": "LIGHT_EXERCISE",
-    "time": "7 s",
+    "time": "8 s",
 
     "qualities": [{ "id": "DEPRIME", "level": 1 }],
 
