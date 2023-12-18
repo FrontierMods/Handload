@@ -1,0 +1,7 @@
+[
+  {
+    "id": ["9mm_casing"],
+    "type": "MIGRATION",
+    "replace": "casing_9x19mm_spent"
+  }
+]
