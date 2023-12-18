@@ -1,0 +1,7 @@
+[
+  {
+    "id": ["smpistol_primer"],
+    "type": "MIGRATION",
+    "replace": "primer_pistol_small"
+  }
+]

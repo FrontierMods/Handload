@@ -1,0 +1,89 @@
+[
+  {
+    "id": "primer_pistol_small",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//sources": [
+      "https://www.cci-ammunition.com/reloading/primers/small_pistol_primer/6-14.html",
+      [
+        "https://castboolits.gunloads.com/archive/index.php/t-413373.html",
+        "weight"
+      ],
+      [
+        "https://handloadingnotebook.wordpress.com/2020/11/30/primers/",
+        "dimensions"
+      ],
+      [
+        "https://projects.nfstc.org/firearms/module05/fir_m05_t07_02.htm",
+        "cup material"
+      ]
+    ],
+
+    "//notes": ["modelled after CCI #500 small pistol primer"],
+
+    "name": {
+      "str": "small pistol primer"
+    },
+    "description": "A tiny brass cup containing a primary explosive.  When inserted into an ammunition casing and struck by the firearm's hammer, it explodes, igniting the gunpowder inside the casing, which then propels the bullet.  This, specifically, is a primer designed for smaller pistol calibers.  Can be used to handload ammunition; has no other uses.",
+
+    "//weight": "3.3 gr",
+    "weight": "214 mg",
+    "//dimensions": {
+      "length": "0.1205 in",
+      "diameter": "0.1755 in",
+      "raw": "47.76 μl",
+      "trim": 0,
+      "result": "9.552 ml",
+      "notes": [
+        "we take the average between minimum and maximum for both lenght (height) and diameter",
+        "result is for a count of 200"
+      ]
+    },
+    "volume": "10 ml",
+
+    "material": ["brass", "powder"],
+
+    "symbol": "=",
+    "color": "dark_gray",
+    "looks_like": "shotgun_primer",
+
+    "count": 200,
+
+    "effects": ["COOKOFF"],
+
+    "//price": "$10 / 100 = 10 cents",
+    "price": "10 cent",
+    "price_postapoc": "1 cent"
+  },
+  {
+    "id": "primer_pistol_small_spent",
+    "copy-from": "primer_pistol_small",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//sources": [
+      "https://castboolits.gunloads.com/archive/index.php/t-413373.html",
+      "weight spent"
+    ],
+
+    "name": {
+      "str": "small pistol primer (spent)",
+      "str_pl": "small pistol primers (spent)"
+    },
+    "description": "A tiny brass cup that used to contain a primary explosive, extracted from a spent pistol cartridge.  It is now spent and no longer has a use.  You can keep a bunch of them as a souvenir.",
+
+    "//weight": "3 gr",
+    "weight": "194 mg",
+
+    "//delete": [
+      "a spent primer cannot cook off because most, if not all, of the explosive inside has been used up"
+    ],
+    "delete": { "effects": ["COOKOFF"] },
+
+    "price": "0 cent",
+    "price_postapoc": "0 cent"
+  }
+]
