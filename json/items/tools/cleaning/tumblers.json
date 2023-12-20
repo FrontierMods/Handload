@@ -1,0 +1,75 @@
+[
+  {
+    "id": "tool_cleaning_case_hornady_rotaty",
+    "type": "GENERIC",
+    "category": "tools",
+
+    "//sources": [
+      "https://www.amazon.com/Hornady-050220-Rotary-Brass-Tumbler/dp/B077PD6LDT",
+      [
+        "https://www.all4shooters.com/en/shooting/ammunition/hornady-m-1-and-with-hornady-rotary-tbl-100-ultrasonic-in-a-practical-test/",
+        "power draw"
+      ]
+    ],
+
+    "//notes": [
+      "the tumbler draws 90Wh, but since it can't be used as a connected appliance, we have to resort to heavy batteries",
+      "given that 90 watts per hour is 324kJ, and no battery in the game can supply this much (let alone a portable one), we shall pretend that a heavy battery is enough to run a single 1-hour cycle of the tumbler",
+      "realistically, the cycle should run for at least 4 hours on a full load (casings + tumbling medial + water)"
+    ],
+
+    "name": {
+      "str": "Hornady rotary case tumbler"
+    },
+    "description": "TBL100 rotary case tumbler by Hornady.  A powered desktop rotary device, similar to a tiny cement mixer, that can be used to clean spent casings, enabling their safe reloading.  Casings must be deprimed before cleaning, as a safety precaution.  This model has its power connection replaced with a large-battery interface, making it usable on the road and off the grid.",
+
+    "//weight": "3 lbs",
+    "weight": "1361 g",
+    "//dimensions": {
+      "length": "16.88 in",
+      "width": "13.75 in",
+      "height": "12 in",
+      "raw": "45641.25 ml",
+      "trim": 0.3,
+      "notes": [
+        "we assume that the more-precise dimensions belong to the item, though it could just as likely be that of the package, since the package is easier to measure precisely"
+      ]
+    },
+    "volume": "31949 ml",
+    "longest_side": "429 mm",
+
+    "//material": "steel is stainless steel",
+    "material": ["steel", "plastic"],
+    "looks_like": "food_processor",
+
+    "symbol": "%",
+    "color": "dark_red",
+
+    "to_hit": -3,
+    "bashing": 8,
+
+    "//qualities": [["CASE_CLEANING", 2]],
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+
+        "max_contains_volume": "6 L",
+        "//max_contains_weight": "17 lbs",
+        "max_contains_weight": "7711 g",
+        "//max_item_length": [
+          "roughly 85% of the tumbler's maximum length",
+          "acquired from visuals"
+        ],
+        "max_item_length": "364 mm",
+
+        "moves": 210
+      }
+    ],
+
+    "price": "255 USD",
+    "price_postapoc": "3 USD"
+  }
+]
