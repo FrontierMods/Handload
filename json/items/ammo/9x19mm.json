@@ -52,7 +52,7 @@
     "ammo_type": "9mm",
     "casing": "casing_9x19mm_spent",
 
-    "stack_size": 30,
+    "stackable": true,
 
     "damage": {
       "damage_type": "bullet",
@@ -161,7 +161,7 @@
     "ammo_type": "9mm",
     "casing": "casing_9x19mm_spent",
 
-    "stack_size": 30,
+    "stackable": true,
 
     "damage": {
       "damage_type": "bullet",
@@ -257,7 +257,7 @@
     "ammo_type": "9mm",
     "casing": "casing_9x19mm_spent",
 
-    "stack_size": 30,
+    "stackable": true,
 
     "damage": {
       "damage_type": "bullet",
@@ -363,7 +363,7 @@
     "ammo_type": "9mm",
     "casing": "casing_9x19mm_spent",
 
-    "stack_size": 30,
+    "stackable": true,
 
     "damage": {
       "damage_type": "bullet",
