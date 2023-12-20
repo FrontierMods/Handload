@@ -1,0 +1,154 @@
+[
+  {
+    "id": "bullet_9x19mm_winchester_fmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      [
+        "https://www.bluecollarreloading.com/products/winchester-9mm-115gr-fmj-fb",
+        "length",
+        "price"
+      ]
+    ],
+
+    "//notes": [
+      "we model this bullet after Winchester 115gr FMJ",
+      "while not necessarily accurate in relation to the round it comes from in the mod, we deem it better to have inaccurate but approximate and complete data and correct later"
+    ],
+
+    "name": {
+      "str": "9×19mm 115gr FMJ bullet"
+    },
+    "description": "A lead bullet in 9×19mm caliber, fully covered in a thin copper jacket, weighing 115 grains (roughly 7.45 grams).  FMJ bullets are valued for their ability to penetrate armor and soft cover, but they don't expand inside the wound.  You can use the bullet to load your own 9×19mm FMJ round.",
+
+    "weight": "7452 mg",
+    "//dimensions": {
+      "length": "0.567 in",
+      "diameter": "0.355 in",
+      "raw": "920 mcl",
+      "trim": 0.25,
+      "result": "690 mcl",
+      "notes": ["volume is per 100 bullets"]
+    },
+    "volume": "69 ml",
+    "longest_side": "14 mm",
+
+    "material": ["lead", "copper"],
+
+    "symbol": ":",
+    "color": "dark_gray",
+
+    "stack_size": 100,
+
+    "//price": "27 USD / 250 = 10.8 cents ≈ 11 cents",
+    "price": "11 cent",
+    "price_postapoc": "1 cent"
+  },
+  {
+    "id": "bullet_9mm_federal_hst_124gr",
+    "copy-from": "bullet_9x19mm_winchester_fmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://www.defensivecarry.com/threads/range-report-federal-9mm-luger-p-124-grain-hst.219191/",
+      [
+        "https://www.rmrbullets.com/shop/bullets/pistol/9mm-355/9mm-124-gr-federal-premium-hst-hollow-point-bullets-pulled/",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "9×19mm 124gr HST bullet"
+    },
+    "description": "A lead bullet in 9×19mm caliber, with a hollow nose and six grooves, weighing 124 grains (roughly 8 grams).  HST is a type of a jacketed hollow-point bullet, with the intended effect similarly being expansion inside the wound cavity to cause more damage; however, like other JHPs, HST is relatively-weak against body armor.  You can use the bullet to load your own 9×19mm HST round.",
+
+    "weight": "8035 mg",
+    "//dimensions": {
+      "length": "0.595 in",
+      "diameter": "0.355 in",
+      "raw": "965 mcl",
+      "trim": 0.25,
+      "result": "820.25 mcl",
+      "notes": ["volume is per 100 bullets"]
+    },
+    "volume": "82 ml",
+    "longest_side": "15 mm",
+
+    "//price": "47 USD / 250",
+    "price": "19 cent",
+    "price_postapoc": "0 cent"
+  },
+  {
+    "id": "bullet_9mm_lehigh_jhp_115gr",
+    "copy-from": "bullet_9x19mm_winchester_fmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      "https://lehighdefense.com/355-diameter-115-grain-maximum-expansion-bullets-50-count.html"
+    ],
+
+    "name": {
+      "str": "9×19mm 115gr JHP ME bullet"
+    },
+    "description": "A lead bullet in 9×19mm caliber, covered in a copper jacket except for its hollow nose, weighing 115 grains (roughly 7.45 grams).  A jacketed hollow-point projectile designed for maximum expansion, this bullet will cause grievous injury inside the body; however, like other JHPs, it's relatively-weak against body armor.  You can use the bullet to load your own 9×19mm JHP ME round.",
+
+    "//dimensions": {
+      "length": "0.724 in",
+      "diameter": "0.355 in",
+      "raw": "1174 mcl",
+      "trim": 0.25,
+      "result": "880.5 mcl",
+      "notes": ["volume is per 200 bullets"]
+    },
+    "volume": "176 ml",
+    "longest_side": "18 mm",
+
+    "stack_size": 200,
+
+    "//price": "46 USD / 50",
+    "price": "92 cent",
+    "price_postapoc": "0 cent"
+  },
+  {
+    "id": "bullet_9mm_lehigh_jhp_115gr",
+    "copy-from": "bullet_9x19mm_winchester_fmj_115gr",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      [
+        "https://pistol-forum.com/showthread.php?49516-Winchester-M1152=&s=5fdc46dcbcd91a45605e99b0f966604f&p=1259997&viewfull=1#post1259997",
+        "length"
+      ],
+      [
+        "https://www.opticsplanet.com/winchester-ammo-centerfire-handgun-reloading-9mm-355-115-gr-silvertip-hollow-p-w.html",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "9×19mm 115gr JHP bullet"
+    },
+    "description": "A lead bullet in 9×19mm caliber, covered in a copper jacket except for its hollow nose, weighing 115 grains (roughly 7.45 grams).  A jacketed hollow-point projectile, this bullet will expand inside the body and cause serious damage to tissues; however, like other JHPs, it's relatively-weak against body armor.  You can use the bullet to load your own 9×19mm JHP round.",
+
+    "//dimensions": {
+      "length": "0.490 in",
+      "diameter": "0.355 in",
+      "raw": "795 mcl",
+      "trim": 0.25,
+      "result": "596.25 mcl",
+      "notes": ["volume is per 200 bullets"]
+    },
+    "volume": "119 ml",
+    "longest_side": "13 mm",
+
+    "stack_size": 200,
+
+    "//price": "36 USD / 100",
+    "price": "36 cent",
+    "price_postapoc": "0 cent"
+  }
+]
