@@ -44,7 +44,7 @@
     "//longest_side": "1.15 in. = 29.21 mm ≈ 29 mm",
     "longest_side": "29 mm",
 
-    "material": ["brass", "lead", "copper", "powder"],
+    "material": ["brass", "lead", "copper", "powder_smokeless_double"],
 
     "symbol": "=",
     "color": "yellow",
@@ -152,7 +152,7 @@
     "longest_side": "28 mm",
 
     "//material": "also nickel",
-    "material": ["brass", "lead", "copper", "powder"],
+    "material": ["brass", "lead", "copper", "powder_smokeless_double"],
 
     "symbol": "=",
     "color": "yellow",
@@ -248,7 +248,7 @@
     "//longest_side": "1.125 in. = 28.575 mm ≈ 29 mm",
     "longest_side": "29 mm",
 
-    "material": ["brass", "lead", "copper", "powder"],
+    "material": ["brass", "lead", "copper", "powder_smokeless_double"],
 
     "symbol": "=",
     "color": "yellow",
@@ -354,7 +354,7 @@
     "longest_side": "29 mm",
 
     "//material": "also nickel",
-    "material": ["brass", "lead", "copper", "powder"],
+    "material": ["brass", "lead", "copper", "powder_smokeless_double"],
 
     "symbol": "=",
     "color": "yellow",

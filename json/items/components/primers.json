@@ -43,7 +43,7 @@
     },
     "volume": "10 ml",
 
-    "material": ["brass", "powder"],
+    "material": ["brass", "explosive_primer_lead_styphnate"],
 
     "symbol": "=",
     "color": "dark_gray",

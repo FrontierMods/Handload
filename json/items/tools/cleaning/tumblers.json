@@ -38,8 +38,8 @@
     "volume": "31949 ml",
     "longest_side": "429 mm",
 
-    "//material": "steel is stainless steel",
-    "material": ["steel", "plastic"],
+    "//material": "likely also aluminium, but never stated",
+    "material": ["stainless_steel", "plastic"],
     "looks_like": "food_processor",
 
     "symbol": "%",

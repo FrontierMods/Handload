@@ -32,7 +32,7 @@
     "volume": "7 ml",
     "longest_side": "7 mm",
 
-    "material": ["steel"],
+    "material": ["stainless_steel"],
 
     "symbol": "=",
     "color": "dark_gray",
