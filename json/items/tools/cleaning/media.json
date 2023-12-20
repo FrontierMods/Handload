@@ -1,0 +1,49 @@
+[
+  {
+    "id": "tumbler_media_stainless_steel",
+    "type": "AMMO",
+    "category": "spare_parts",
+
+    "//sources": [
+      ["https://enoughgun.com/forum/viewtopic.php?f=3&t=15820", "dimensions"],
+      [
+        "https://www.all4shooters.com/en/shooting/ammunition/hornady-m-1-and-with-hornady-rotary-tbl-100-ultrasonic-in-a-practical-test/",
+        "price",
+        "weight reference"
+      ]
+    ],
+
+    "//notes": ["5 lbs is 39598.74 ≈ 39600 rods"],
+
+    "name": {
+      "str_sp": "stainless steel tumbler media"
+    },
+    "description": "A tiny rod made from stainless steel, 1.2mm × 6.47mm in size.  A few batches of these can be used to clean dirty casings in a rotary tumbler.",
+
+    "//weight": "based on density of 304 stainless steel (7.9 g/cm3) * volume per rod (7.25 mcl)",
+    "weight": "57 mg",
+    "//dimensions": {
+      "length": "0.255 in",
+      "diameter": "0.047 in",
+      "raw": "7.25 mcl",
+      "trim": 0,
+      "notes": ["volume is per 100 rods"]
+    },
+    "volume": "7 ml",
+    "longest_side": "7 mm",
+
+    "material": ["steel"],
+
+    "symbol": "=",
+    "color": "dark_gray",
+
+    "container": "bag_plastic",
+    "stack_size": 100,
+
+    "ammo_type": "components",
+
+    "//price": "~2 USD / pound = 1.26 cents / 100 rods",
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
+  }
+]
