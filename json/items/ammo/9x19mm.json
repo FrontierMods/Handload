@@ -22,8 +22,7 @@
     "//notes": ["stated to use Federal casings and primers as well"],
 
     "name": {
-      "str": "9×19mm American Eagle FMJ",
-      "str_pl": "rounds of 9×19mm American Eagle FMJ"
+      "str_sp": "9×19mm American Eagle FMJ"
     },
     "description": "Ammunition in the 9×19mm caliber, with a 115-gr FMJ (\"full metal jacket\") bullet; produced by Federal under the American Eagle brand.  The purpose of FMJ is to allow the bullet to penetrate body armor or soft cover.  Conversely, FMJ rounds don't expand on contact in any significant way, meaning the damage they deal to critical areas of the body is less than that of an expansive bullet.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
 
@@ -131,8 +130,7 @@
     ],
 
     "name": {
-      "str": "9×19mm Federal Premium HST",
-      "str_pl": "rounds of 9×19mm Federal Premium HST"
+      "str_sp": "9×19mm Federal Premium HST"
     },
     "description": "Ammunition in the 9×19mm caliber, with a 124-gr JHP (\"jacketed hollow point\") bullet; produced by Federal under the Federal Premium brand.  Like any JHP, the purpose of this round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
 
@@ -229,8 +227,7 @@
     ],
 
     "name": {
-      "str": "9×19mm Lehigh Defense ME",
-      "str_pl": "rounds of 9×19mm Lehigh Defense ME"
+      "str_sp": "9×19mm Lehigh Defense ME"
     },
     "description": "Ammunition in the 9×19mm caliber, with a 115-gr JHP ME (\"jacketed hollow point, maximum expansion\") bullet; produced by Lehigh Defense.  Like any JHP round, the purpose of this type of round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  The bullet of this round is designed to inflict grievous wounds to the internal organs of the target, significantly more so than a regular JHP.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
 
@@ -335,8 +332,7 @@
     ],
 
     "name": {
-      "str": "9×19mm Winchester Ranger JHP +P+",
-      "str_pl": "rounds of 9×19mm Winchester Ranger JHP +P+"
+      "str_sp": "9×19mm Winchester Ranger JHP +P+"
     },
     "description": "Ammunition in the 9×19mm caliber, with a 115-gr JHP (\"jacketed hollow point\") bullet; produced by Winchester.  This make of ammo is issued to police, though you could get it as a civilian, for the right price.  Like any JHP round, the purpose of this type of round is to expand on contact with the target to increase the area of contact.  This means that it does significant damage to the flesh, but stands little chance against body armor.  This round operate under significantly-higher pressure, which improves its overall performance in exchange for increased recoil.  The caliber is also known as 9mm Luger, 9mm Parabellum, or simply 9mm.",
 
