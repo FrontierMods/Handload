@@ -1,0 +1,78 @@
+[
+  {
+    "abstract": "propellant_ball",
+    "type": "AMMO",
+    "category": "chems",
+
+    "name": {
+      "str_sp": "ball propellant"
+    },
+
+    "//weight": "0.1 gr = 6.4799 mg ≈ 7 mg",
+    "weight": "7 mg",
+
+    "material": ["powder_smokeless_double"],
+
+    "symbol": "=",
+    "color": "dark_gray",
+
+    "container": "container_gunpowder_1lb",
+    "sealed": false,
+
+    "ammo_type": "components",
+
+    "//count": "1 lb = 7000 gr = 70000 * 0.1 gr",
+    "count": 70000,
+    "stackable": true,
+
+    "effects": ["COOKOFF"],
+
+    "flags": ["TINDER"]
+  },
+  {
+    "id": "propellant_ball_ultrafast",
+    "copy-from": "propellant_ball",
+    "type": "AMMO",
+
+    "//sources": [
+      "https://shop.hodgdon.com/hodgdon-titegroup/",
+      [
+        "https://cradpdf.drdc-rddc.gc.ca/PDFS/unc359/p812972_A1b.pdf",
+        "ball propellant grain diameter",
+        "ball propellant average density (for 600—710 mcm)"
+      ]
+    ],
+
+    "//notes": [
+      "modelled after Hodgdon Titegroup",
+      "Titegroup is a flattened ball propellant",
+      [
+        "Titegroup fits for standard-pressure (not +P or +P+) loads",
+        "http://natoreloading.com/titegroup/"
+      ]
+    ],
+
+    "name": {
+      "str_sp": "ultra-fast ball propellant"
+    },
+    "description": "Ball propellant (commonly known as gunpowder or smokeless powder) with a very-high burn rate.  Higher burn rates are better-suited for shorter barrels and lighter bullets; they also positively affect accuracy.  However, they're only suited for pistol calibers: heavier rifle bullets require a slower burn over a longer barrel in order to reach their potential.  This propellant can be loaded into a cartridge",
+
+    "//dimensions": {
+      "diameter": "627 mcm",
+      "raw": "129.7 nl",
+      "trim": 0,
+      "units": 46,
+      "result": "5966.93 nl",
+      "notes": [
+        "diameter is of a single large-ish ball-propellant grain",
+        "~46 propellant balls at density 1.086 g/cm3 to make 0.1 gr",
+        "volume is for 70 000 'units' of 0.1 gr of the powder ≈ 1 lb"
+      ]
+    },
+    "volume": "418 ml",
+
+    "//price": ["price for 1 lb", "minus 2 USD for the container"],
+    "price": "29 USD",
+    "price_postapoc": "2 USD"
+  }
+]

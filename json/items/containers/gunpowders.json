@@ -1,0 +1,65 @@
+[
+  {
+    "id": "container_gunpowder_1lb",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      [
+        "https://www.1911forum.com/threads/powder-dimensions.647329/post-7965161",
+        "dimensions"
+      ],
+      [
+        "https://www.bullseyeforum.net/t16237-tare-weight-on-powder-containers",
+        "weight"
+      ],
+      ["https://www.uline.ca/BL_8174/F-Style-Jugs", "price reference"]
+    ],
+
+    "//notes": ["modelled after Hodgdon's 1-pound black plastic container"],
+
+    "name": {
+      "str": "1-pound gunpowder container"
+    },
+    "description": "A black plastic container, tall and wide.  The sticker calls out the gunpowder's manufacturer, the brand name, the usual safety warnings, as well as a list of loads the powder is most-recommended for.",
+
+    "//weight": "951 gr",
+    "weight": "62 g",
+    "//dimensions": {
+      "length": "6.125 in",
+      "diameter": "3.375 in",
+      "raw": "897.93 ml",
+      "trim": 0.125
+    },
+    "volume": "786 ml",
+    "longest_side": "156 mm",
+
+    "to_hit": -2,
+    "bashing": 1,
+
+    "material": ["plastic"],
+
+    "symbol": ")",
+    "color": "black",
+    "looks_like": "bottle_plastic",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+
+        "//max_contains_weight": "~2.2 lbs",
+        "max_contains_weight": "1 kg",
+        "max_contains_volume": "750 ml",
+
+        "moves": 400
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS"],
+
+    "price": "2 USD",
+    "price_postapoc": "10 cent"
+  }
+]
