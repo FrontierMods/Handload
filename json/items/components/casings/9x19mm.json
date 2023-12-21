@@ -17,8 +17,8 @@
     ],
 
     "name": {
-      "str": "9×19mm casing, spent",
-      "str_pl": "9×19mm casings, spent"
+      "str": "9×19mm casing (spent)",
+      "str_pl": "9×19mm casings (spent)"
     },
     "description": "A brass casing for a 9×19mm cartridge.  This one had been fired, and needs depriming and cleaning before you can reload it safely.  Deconstruct to deprime it.",
 
@@ -56,8 +56,8 @@
     "category": "spare_parts",
 
     "name": {
-      "str": "9×19mm casing, dirty",
-      "str_pl": "9×19mm casings, dirty"
+      "str": "9×19mm casing (dirty)",
+      "str_pl": "9×19mm casings (dirty)"
     },
     "description": "A brass casing for a 9×19mm cartridge.  This one had been fired and subsequently deprimed.  After proper cleaning, it would be fit for handloading.",
 
@@ -74,8 +74,8 @@
     "category": "spare_parts",
 
     "name": {
-      "str": "9×19mm casing, clean",
-      "str_pl": "9×19mm casings, clean"
+      "str": "9×19mm casing (clean)",
+      "str_pl": "9×19mm casings (clean)"
     },
     "description": "A brass casing for a 9×19mm cartridge.  This one had previously been fired, but since then has been deprimed and cleaned.  Can be reloaded into a usable cartridge, but due to the micro-scale structural damage suffered from the first firing, it cannot be used for higher-tier custom loads reliably.",
 
