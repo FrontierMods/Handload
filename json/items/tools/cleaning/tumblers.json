@@ -1,6 +1,6 @@
 [
   {
-    "id": "tool_cleaning_case_hornady_rotaty",
+    "id": "tool_cleaning_case_hornady_rotary",
     "type": "GENERIC",
     "category": "tools",
 
@@ -43,7 +43,7 @@
     "looks_like": "food_processor",
 
     "symbol": "%",
-    "color": "dark_red",
+    "color": "red",
 
     "to_hit": -3,
     "bashing": 8,
