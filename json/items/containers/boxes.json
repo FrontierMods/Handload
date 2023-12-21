@@ -1,0 +1,52 @@
+[
+  {
+    "id": "box_paper_ammunition_pistol_50",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://buckinghorseoutpost.com/federal-american-eagle-9mm-luger-115-grain-full-metal-jacket-50rds-per-box-ae9dp-free-shipping-on-orders-over-125/"
+    ],
+
+    "name": {
+      "str": "50-round pistol ammo box"
+    },
+    "description": "Paper ammunition box for 50 rounds of pistol-caliber ammunition.  The round count is based on the plastic tray that usually comes inside boxes like this one.",
+
+    "weight": "17 g",
+    "//dimensions": {
+      "length": "2.75 in",
+      "width": "5.5 in",
+      "height": "1.33 in",
+      "raw": "329.65 ml",
+      "trim": 0
+    },
+    "volume": "330 ml",
+    "longest_side": "140 mm",
+
+    "material": ["paper"],
+
+    "symbol": "□",
+    "color": "brown",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "rigid": true,
+
+        "//max_contains_volume": "pretty much the entire volume, since paper walls are very thin",
+        "max_contains_volume": "329 ml",
+        "max_contains_weight": "1500 g",
+        "//max_item_length": "pretty much the entire length, since paper walls are very thin",
+        "max_item_length": "139 mm"
+      }
+    ],
+
+    "flags": ["COLLAPSE_CONTENTS"],
+
+    "//price": "estimate",
+    "price": "25 cent",
+    "price_postapoc": "0 cent"
+  }
+]

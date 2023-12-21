@@ -1,0 +1,75 @@
+[
+  {
+    "id": "tray_plastic_pistol_small_50",
+    "type": "GENERIC",
+    "category": "container",
+
+    "//sources": [
+      "https://www.amazon.com/Caliber-Universal-Reloading-Loading-10-Pack/dp/B01N5M3FZB",
+      [
+        "https://www.stlfinder.com/model/9mm-ammo-tray-ta8SuFyt/2434160/",
+        "height"
+      ]
+    ],
+
+    "//notes": [
+      "we presume that the weight is per a single tray",
+      [
+        "may or may not come inside a paper box on spawn",
+        "both options are valid, so we don't assign a `container` to the tray"
+      ]
+    ],
+
+    "name": {
+      "str": "small-caliber plastic tray, 50 rounds",
+      "str_pl": "small-caiber plastic trays, 50 rounds"
+    },
+    "description": "Black plastic tray for 50 pistol-caliber rounds, in a 5-by-10 grid.  Cheap and clearly molded, as evident by the traces of reinforcement pillars.  Paper boxes often use trays like this one to hold ammunition.",
+
+    "//weight": "0.22 lbs = 99.79 g ≈ 100 g",
+    "weight": "100 g",
+    "//dimensions": {
+      "length": "5 in",
+      "width": "2.6 in",
+      "height": "0.51 in",
+      "raw": "108.65 ml",
+      "trim": 0,
+      "notes": [
+        "height from source (5.2 in.) is likely for a stack of 10 trays, as seen in one the images in the description",
+        "we use the height of a 3D model of a similar tray (13 mm ≈ 0.51 in.) instead, in order to err on the side of caution"
+      ]
+    },
+    "volume": "109 ml",
+    "longest_side": "127 mm",
+
+    "material": ["plastic"],
+
+    "symbol": ",",
+    "color": "light_cyan",
+
+    "pocket_data": [
+      {
+        "ammo_restriction": {
+          "9mm": 50,
+          "9x18": 50,
+          "357mag": 50,
+          "357sig": 50,
+          "38": 50,
+          "38super": 50,
+          "380": 50
+        },
+        "//magazine_well": [
+          "~75% of volume of tray",
+          "emulates bullets sitting inside slots (~50% volume for 9×19mm)"
+        ],
+        "magazine_well": "82 ml",
+
+        "moves": 80
+      }
+    ],
+
+    "//price": "10 USD / the 10-pack deal",
+    "price": "1 USD",
+    "price_postapoc": "1 cent"
+  }
+]
