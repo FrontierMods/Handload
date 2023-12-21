@@ -78,6 +78,8 @@
     "//weight": "3 gr",
     "weight": "194 mg",
 
+    "material": ["brass"],
+
     "//delete": [
       "a spent primer cannot cook off because most, if not all, of the explosive inside has been used up"
     ],
