@@ -41,6 +41,8 @@
 
     "stack_size": 100,
 
+    "ammo_type": "components",
+
     "//price": "27 USD / 250 = 10.8 cents ≈ 11 cents",
     "price": "11 cent",
     "price_postapoc": "1 cent"
@@ -113,7 +115,7 @@
     "price_postapoc": "0 cent"
   },
   {
-    "id": "bullet_9mm_lehigh_jhp_115gr",
+    "id": "bullet_9mm_winchester_jhp_115gr",
     "copy-from": "bullet_9x19mm_winchester_fmj_115gr",
     "type": "AMMO",
     "category": "spare_parts",
