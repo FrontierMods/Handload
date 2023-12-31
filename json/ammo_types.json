@@ -1,0 +1,10 @@
+[
+  {
+    "id": "9mm",
+    "type": "ammunition_type",
+
+    "name": "9×19mm",
+
+    "default": "9x19mm_jhp_federal_premium_hst"
+  }
+]
