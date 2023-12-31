@@ -2,11 +2,24 @@
   {
     "id": "handload_9x19mm",
     "type": "requirement",
-    "components": [[["casing_9x19mm_clean", 1]], [["primer_pistol_small", 1]]]
+
+    "components": [
+      [
+        ["casing_9x19mm_clean", 1],
+        ["casing_9x19mm_pristine", 1]
+      ],
+      [["primer_pistol_small", 1]]
+    ]
   },
   {
-    "id": "handload_9x19mm_pristine",
+    "id": "handload_9x19mm_pristine_only",
     "type": "requirement",
+
+    "//": [
+      "for high-load/-pressure custom cartridges",
+      "used casings have microdamages that make them unsafe to use with more-intense loads"
+    ],
+
     "components": [
       [["casing_9x19mm_pristine", 1]],
       [["primer_pistol_small", 1]]
