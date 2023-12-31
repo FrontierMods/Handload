@@ -15,7 +15,7 @@
     "//notes": [
       "the tumbler draws 90Wh, but since it can't be used as a connected appliance, we have to resort to heavy batteries",
       "given that 90 watts per hour is 324kJ, and no battery in the game can supply this much (let alone a portable one), we shall pretend that a heavy battery is enough to run a single 1-hour cycle of the tumbler",
-      "realistically, the cycle should run for at least 4 hours on a full load (casings + tumbling medial + water)"
+      "realistically, the cycle should run for at least 4 hours on a full load (casings + tumbling media + water)"
     ],
 
     "name": {
