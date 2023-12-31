@@ -1,0 +1,7 @@
+[
+  {
+    "id": ["gunpowder_pistol"],
+    "type": "MIGRATION",
+    "replace": "propellant_ball_ultrafast"
+  }
+]
